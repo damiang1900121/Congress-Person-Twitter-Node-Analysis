@@ -149,7 +149,7 @@ mod tests {
     }
 
     #[test]
-    fn test_average_path_length_small_graph() {
+    fn test_average_path_length() {
         let mut graph = Graph::new();
         graph.add_edge(0, 1);
         graph.add_edge(1, 2);
