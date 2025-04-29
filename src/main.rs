@@ -106,7 +106,7 @@ fn average_path_length(graph: &Graph) -> f64 {
 }
 
 fn main() {
-    println!("Loading Congress graph...");
+    println!("Loading Congress graph....");
     let congress_graph = Graph::from_edgelist("congress.edgelist");
 
     println!("Generating random graph...");
